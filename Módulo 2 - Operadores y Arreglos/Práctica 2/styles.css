@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+}
+
+h2 {
+    padding: 2vh 3vw;
+    margin: 0px;
+    font: normal 700 2vmax "Kalam", cursive;
+    color: #000d5a;
+}
+
+ol {
+    padding-left: 7vw;
+    margin: 0px;
+}
+
+li {
+    font: normal 400 1.5vmax "Kalam", cursive;
+    color: #000d5a;
+}
+
+main {
+    height: 100vh;
+    background-image: linear-gradient(
+        to left,
+        #000d5a,
+        #890d64,
+        #d74c57,
+        #fda04c,
+        #f9f871
+    );
+}
