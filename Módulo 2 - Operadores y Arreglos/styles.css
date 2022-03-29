@@ -1,0 +1,42 @@
+body, h1 {
+    margin: 0px;
+}
+
+#background {
+    background-image: linear-gradient(
+        to left bottom,
+        #aa0e66,
+        #ad0076,
+        #ad0088,
+        #aa009b,
+        #a213b0,
+        #9818b6,
+        #8c1dbc,
+        #7e22c2,
+        #731cba,
+        #6816b1,
+        #5c0fa9,
+        #5108a1
+    );
+    height: 100vh;
+}
+
+h1 {
+    padding: 10px 0px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 3vmax;
+    color: #FEF9E7;
+}
+
+p {
+    padding: 0px 30vw;
+    text-align: justify;
+    color: #FFFF99;
+    font: normal 800 2vmax 'K2D', sans-serif;
+}
+
+span {
+    font: normal 400 2vmax 'K2D', sans-serif;
+    color: #FEF9E7; 
+}
