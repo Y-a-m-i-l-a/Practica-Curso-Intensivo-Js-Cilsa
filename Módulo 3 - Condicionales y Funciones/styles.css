@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+fieldset {
+    margin: 5vh 20vw;
+    border-color: aqua;
+    border-radius: 10px;
+}
+
+legend {
+    color: magenta;
+    font: italic 400 150% 'Lobster Two', cursive;
+}
+
+span {
+    font-weight: 700;
+}
+
+label {
+    color: aquamarine;
+    font: normal 500 110% 'Sansita Swashed', cursive;
+}
+
+input {
+    background-color:snow;
+    margin: 1vh auto;
+}
+
+input:focus {
+    border-color: fuchsia;
+}
+
+[type=number] {
+    font: normal 300 110% 'Sansita Swashed', cursive;
+    color: darkmagenta;
+    border-radius: 5px;
+}
+
+button {
+    background-color:lightcyan;
+    border-radius: 10px;
+    padding: 0.5vh 0.5vw;
+    font: normal 700 105% 'Lobster Two', cursive;
+}

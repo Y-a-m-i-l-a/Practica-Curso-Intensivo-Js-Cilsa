@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionales y Funciones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <fieldset>
+            <legend><span>1)</span> Radio buttons</legend>
+            <div>
+                <input type="radio" onclick="opcion(1)">
+                <label>Opción 1</label><br>
+            </div>
+            <div>
+                <input type="radio" onclick="opcion(2)">
+                <label>Opción 2</label><br>
+            </div>
+            <button type="button" onclick="mostrarEleccion()">Mostrar opción seleccionada</button>
+        </fieldset>
+
+        <fieldset>
+            <legend><span>2)</span> Número mayor</legend>
+            <form name="numMayor">
+                <div>
+                    <label>Número 1</label>
+                    <input type="number" name="num1">
+                </div>
+                <div>
+                    <label>Número 2</label>
+                    <input type="number" name="num2">
+                </div>
+                <button type="button" onclick="mayor()">Comparar</button>
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <legend><span>3)</span> Suma</legend>
+            <form name="sumar">
+                <div>
+                    <label>Número 1</label>
+                    <input type="number" name="sum1">
+                </div>
+                <div>
+                    <label>Número 2</label>
+                    <input type="number" name="sum2">
+                </div>
+                <button type="button" onclick="suma()">Sumar</button>
+            </form>
+        </fieldset>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
