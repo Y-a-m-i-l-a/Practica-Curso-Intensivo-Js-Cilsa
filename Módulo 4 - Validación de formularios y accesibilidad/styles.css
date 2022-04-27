@@ -77,3 +77,15 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
 }
+
+#validado {
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: 'Updock', cursive;
+    font-size: 300%;
+}
+
+iframe {
+    border: 0px;
+}

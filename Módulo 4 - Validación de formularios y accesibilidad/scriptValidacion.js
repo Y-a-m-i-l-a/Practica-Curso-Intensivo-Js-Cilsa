@@ -1,4 +1,5 @@
 const formulario = document.getElementById("formulario");
+const validado = document.getElementById("validado");
 var valorIngresado = document.getElementById("num");
 
 const checked = document.getElementById("checked");
@@ -34,6 +35,9 @@ function validar() {
             noChecked.style.display = "initial";
         } else {
             event.currentTarget.submit();
+            // formulario.style.display = "none";
+            // validado.style.display = "block";
         }
+        
     })
 }
