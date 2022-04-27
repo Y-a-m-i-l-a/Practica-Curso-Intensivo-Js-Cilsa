@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.04);
+    padding: 5vh 0px;
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Lavishly Yours', cursive;
+    font-size: 400%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30vw;
+    margin: auto;
+    padding: 5vh 5vw;
+    color: whitesmoke;
+    font-family: 'Updock', cursive;
+    font-size: 250%;
+}
+
+label {
+    margin-bottom: 1vh;
+}
+
+input {
+    height: 2rem;
+    font-family: 'Updock', cursive;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+[type="text"] {
+    margin: 0px 0.2rem 0.6rem;
+    width: 50%;
+    padding-left: 10px;
+}
+
+[type="submit"] {
+    margin: 0.6rem auto 0px;
+    width: 25%;
+    cursor: pointer;
+}
+
+#input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.material-symbols-outlined {
+    margin-bottom: 0.6rem;
+    display: none;
+}
+
+p {
+    visibility: hidden;
+    text-align: center;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
