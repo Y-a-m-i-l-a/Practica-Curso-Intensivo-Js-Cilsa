@@ -37,6 +37,3 @@ function validar() {
         }
     })
 }
-
-// event.currentTarget.submit();
-// parseInt(valorIngresado.value) == valorIngresado.value && (parseInt(valorIngresado.value) >= 1) && (parseInt(valorIngresado.value) <= 100)
