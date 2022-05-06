@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción al DOM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="container">
+        <main>
+            <div id="infopag" class="oculto"></div>
+            <h2>Centros de Formación CILSA</h2>
+            <p>
+                Son centros tecnológicos comunitarios que tienen por objetivos promover el acceso y
+                la capacitación en el uso de las Tecnologías de la Información y la Comunicación, y la preparación para
+                la
+                inclusión laboral de poblaciones en situación de vulnerabilidad social.
+                Estos centros se encuentran en las ciudades de Santa Fe, Rosario, Córdoba, Mar del Plata, La Plata,
+                Mendoza
+                y
+                CABA.
+                <a href="https://www.cilsa.org" target="_blank">(Visita la Pagina de CILSA)</a>
+            </p>
+            <h3>Si quiere anotarse para los proximos cursos, presione "Añadir su Nombre"</h3>
+            <ul id="alumnos">
+                <li>Jesus Chirinos</li>
+                <li>Monica Figueredo</li>
+                <li>Florencia Campagna</li>
+                <li>Daniela Vallejos</li>
+                <li>Facundo Morales</li>
+            </ul>
+
+            <button onclick="agrega();">Añadir su nombre</button>
+        </main>
+        <aside>
+            <h2>Conoce un poco mas sobre nosotros</h2>
+            <p id="texto">
+                CILSA es una Organización No Gubernamental (O.N.G.) de bien público fundada el 14 de mayo de 1966 en
+                la ciudad de Santa Fe, República Argentina.
+            </p>
+            <div id="adicional" class="oculto">
+                <h3>Misión</h3>
+                <p>
+                    Promover la inclusión plena de personas con discapacidad y personas provenientes
+                    de sectores marginados de la sociedad como niños, niñas y adolescentes en situación de
+                    vulnerabilidad
+                    social.
+                </p>
+                <h3>Meta</h3>
+                <p>
+                    Vencer las barreras ideológicas para lograr una sociedad que no discrimine ni margine, brindando a
+                    todos
+                    los individuos igualdad de oportunidades para su desarrollo.
+                </p>
+                <h3>Objetivos</h3>
+                <ul>
+                    <li>Generar conciencia en la comunidad sobre la importancia de construir una sociedad inclusiva y
+                        promover su participación activa.</li>
+                    <li>Mejorar la calidad de vida de las personas con discapacidad con la entrega gratuita de un
+                        elemento
+                        ortopédico que facilite su movilidad.</li>
+                    <li>Brindar contención y trabajar por los derechos de los niños provenientes de familias de escasos
+                        recursos económicos.</li>
+                    <li>Acercar la posibilidad a personas con discapacidad de acceder a una formación académica
+                        superior, a
+                        una capacitación profesional y al conocimiento de las herramientas tecnológicas, promoviendo así
+                        su
+                        inclusión social y laboral.</li>
+                    <li>Promover el desarrollo de actividades deportivas y recreativas como medio de inclusión social.
+                    </li>
+                </ul>
+                <button id="btn_ocultar" onclick="ocultar(); return false;"><img src="up-arrow.png" alt="Up Arrow" id="upArrow">Menos</button>
+            </div>
+            <button id="btn_mostrar" onclick="muestra(); return false;"><a id="seguir">Seguir leyendo</a></button>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

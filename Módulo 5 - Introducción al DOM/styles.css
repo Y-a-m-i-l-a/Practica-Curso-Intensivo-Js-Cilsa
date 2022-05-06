@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+}
+
+#container {
+    background-image: linear-gradient(
+        to bottom,
+        #00a8c6,
+        #00b2d1,
+        #00bddc,
+        #00c7e6,
+        #00d2f1,
+        #32d9f5,
+        #4ae0f9,
+        #5ce7fd,
+        #7becfd,
+        #94f1fd,
+        #aaf6fe,
+        #bffbff
+    );
+    height: 100vh;
+    padding: 4vh 2vw;
+}
+
+aside {
+    margin-top: 3vh;
+    padding-top: 3vh;
+    border-top: 3px dashed rgb(2, 2, 59);
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+h2,
+h3 {
+    font-family: "Gluten", cursive;
+    color: rgb(2, 2, 59);
+}
+
+p,
+ul,
+a,
+#infopag {
+    font-family: "Grandstander", cursive;
+    color: rgb(4, 46, 4);
+}
+
+button {
+    font-family: "Grandstander", cursive;
+    font-weight: 800;
+    font-size: medium;
+    color: white;
+    background-color: rgb(2, 2, 59);
+    padding: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#seguir {
+    color: white;
+}
+
+button:focus {
+    -webkit-animation: scale 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: scale 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+#btn_ocultar {
+    display: flex;
+    align-items: center;
+}
+
+#upArrow {
+    margin-right: 5px;
+}
+
+#alumnos {
+    list-style-image: url(check.png);
+}
+
+.oculto {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+#infopag {
+    border: 1.5px solid rgb(2, 2, 59);
+    padding: 1vh 1vw;
+    margin-bottom: 3vh;
+}
